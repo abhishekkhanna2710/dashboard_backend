@@ -17,7 +17,7 @@ const UserSchema = new mongoose.Schema({
 
 })
 
-
+// Collection created
 const userModel = mongoose.model('User', UserSchema);
-
+ 
 export default userModel;
